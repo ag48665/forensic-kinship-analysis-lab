@@ -32,6 +32,44 @@ The project focuses on:
 
 
 
+\---
+
+
+
+\## Parent-Child Experiment
+
+
+
+Evaluates whether biological parents obtain higher likelihood ratios than unrelated individuals.
+
+
+
+!\[Kinship](reports/kinship\_experiment.png)
+
+
+
+Example results:
+
+
+
+| Relationship | Average LR |
+
+|-------------|------------|
+
+| True parent | 7.000 |
+
+| Unrelated | 1.170 |
+
+
+
+The experiment simulates STR inheritance and compares likelihood ratios between true parent-child pairs and unrelated individuals.
+
+
+
+Results demonstrate that biological parents consistently obtain substantially higher likelihood ratios than unrelated individuals, supporting the use of STR markers in forensic kinship analysis.
+
+
+
 \## Research Questions
 
 
@@ -55,4 +93,6 @@ This project is intended for educational and research-training purposes only.
 
 
 It is not validated for forensic casework and must not be used in real investigations.
+
+
 
