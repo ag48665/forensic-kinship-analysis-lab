@@ -18,17 +18,33 @@ The project focuses on:
 
 
 
-\- STR inheritance simulation
+\* STR inheritance simulation
 
-\- Parent-child relationship testing
+\* Parent-child relationship testing
 
-\- Sibling relationship simulation
+\* Sibling relationship simulation
 
-\- Unrelated individual comparison
+\* Unrelated individual comparison
 
-\- Kinship likelihood ratios
+\* Kinship likelihood ratios
 
-\- Monte Carlo experiments
+\* Monte Carlo experiments
+
+
+
+\---
+
+
+
+\## Scientific Motivation
+
+
+
+Forensic kinship analysis is widely used in missing persons investigations, disaster victim identification (DVI), immigration testing, and human identification.
+
+
+
+This project demonstrates how biological relationships can be evaluated using simulated STR profiles and likelihood-based approaches.
 
 
 
@@ -54,11 +70,11 @@ Example results:
 
 | Relationship | Average LR |
 
-|-------------|------------|
+| ------------ | ---------- |
 
-| True parent | 7.000 |
+| True parent  | 7.000      |
 
-| Unrelated | 1.170 |
+| Unrelated    | 1.170      |
 
 
 
@@ -67,6 +83,26 @@ The experiment simulates STR inheritance and compares likelihood ratios between 
 
 
 Results demonstrate that biological parents consistently obtain substantially higher likelihood ratios than unrelated individuals, supporting the use of STR markers in forensic kinship analysis.
+
+
+
+\---
+
+
+
+\## STR Inheritance Example
+
+
+
+!\[Inheritance](reports/inheritance\_diagram.png)
+
+
+
+The child inherits one allele from each biological parent at every STR locus.
+
+
+
+\---
 
 
 
@@ -84,6 +120,102 @@ Results demonstrate that biological parents consistently obtain substantially hi
 
 
 
+\---
+
+
+
+\## Methods
+
+
+
+\* STR profile generation
+
+\* Mendelian inheritance simulation
+
+\* Parent-child relationship testing
+
+\* Kinship likelihood ratio calculation
+
+\* Monte Carlo experiments
+
+\* Data visualization using Python
+
+
+
+\---
+
+
+
+\## Project Structure
+
+
+
+```text
+
+forensic-kinship-analysis-lab/
+
+│
+
+├── reports/
+
+│   ├── kinship\_experiment.png
+
+│   ├── kinship\_results.csv
+
+│   └── inheritance\_diagram.png
+
+│
+
+├── src/
+
+│   ├── kinship\_simulator.py
+
+│   ├── kinship\_likelihood.py
+
+│   ├── kinship\_experiment.py
+
+│   ├── plot\_kinship\_results.py
+
+│   └── plot\_inheritance\_diagram.py
+
+│
+
+├── requirements.txt
+
+└── README.md
+
+```
+
+
+
+\---
+
+
+
+\## Future Work
+
+
+
+\* Sibling likelihood ratios
+
+\* Half-sibling analysis
+
+\* Grandparent-grandchild testing
+
+\* Missing persons identification
+
+\* Population allele frequencies
+
+\* Frequency-based kinship likelihood ratios
+
+\* SNP-based relationship inference
+
+
+
+\---
+
+
+
 \## Disclaimer
 
 
@@ -93,6 +225,46 @@ This project is intended for educational and research-training purposes only.
 
 
 It is not validated for forensic casework and must not be used in real investigations.
+
+
+
+\---
+
+
+
+\## Author
+
+
+
+Agata Gabara
+
+Bioinformatics Student at Vrije \& University Amsterdam
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
