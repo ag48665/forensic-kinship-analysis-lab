@@ -43,7 +43,6 @@ The experiment simulates STR inheritance and compares likelihood ratios between 
 Results demonstrate that biological parents consistently obtain substantially higher likelihood ratios than unrelated individuals, supporting the use of STR markers in forensic kinship analysis.
 
 ---
-<<<<<<< HEAD
 
 ## STR Inheritance Example
 
@@ -130,3 +129,6 @@ forensic-kinship-analysis-lab/
 This project is intended for educational and research-training purposes only.
 
 It is not validated for forensic casework and must not be used in real investigations.
+
+## Author
+Agata Gabara
