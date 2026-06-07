@@ -43,9 +43,27 @@ The experiment simulates STR inheritance and compares likelihood ratios between 
 Results demonstrate that biological parents consistently obtain substantially higher likelihood ratios than unrelated individuals, supporting the use of STR markers in forensic kinship analysis.
 
 ---
+<<<<<<< HEAD
 
 ## STR Inheritance Example
 
+=======
+## Sibling Relationship Experiment
+
+![Sibling](reports/sibling_experiment.png)
+
+| Relationship | Average Shared Alleles |
+|-------------|------------------------|
+| Siblings | 6.897 |
+| Unrelated | 3.101 |
+
+Biological siblings share substantially more STR alleles than unrelated individuals, demonstrating the usefulness of STR markers for forensic kinship inference.
+
+---
+
+## STR Inheritance Example
+
+>>>>>>> ae0fafed752204358af24d15c49356d8b20b6a2c
 ![Inheritance](reports/inheritance_diagram.png)
 
 The child inherits one allele from each biological parent at every STR locus.
