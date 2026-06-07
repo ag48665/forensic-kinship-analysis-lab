@@ -1,5 +1,10 @@
 import random
 
+from kinship_likelihood import (
+    parent_child_compatible,
+    simple_parent_child_lr
+)
+
 
 STR_MARKERS = {
     "D3S1358": [12, 13, 14, 15, 16, 17, 18],
@@ -71,3 +76,11 @@ if __name__ == "__main__":
     print("\nSHARED ALLELES")
     print("Parent-child:", count_shared_alleles(parent1, child))
     print("Unrelated-child:", count_shared_alleles(unrelated, child))
+
+    print("\nPARENT-CHILD COMPATIBILITY")
+    print("True parent:", parent_child_compatible(parent1, child))
+    print("Unrelated:", parent_child_compatible(unrelated, child))
+
+    print("\nSIMPLE PARENT-CHILD LR")
+    print("True parent LR:", simple_parent_child_lr(parent1, child))
+    print("Unrelated LR:", simple_parent_child_lr(unrelated, child))
