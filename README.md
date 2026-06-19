@@ -1,6 +1,6 @@
 # Forensic Kinship Analysis Lab
 
-Educational forensic genetics project for simulating STR inheritance and kinship analysis.
+Computational genetics project exploring STR inheritance, kinship analysis, and forensic relationship inference.
 
 ## Overview
 
@@ -17,6 +17,24 @@ The project focuses on:
 * Unrelated individual comparison
 * Kinship likelihood ratios
 * Monte Carlo experiments
+
+---
+
+## Project Highlights
+
+✔ STR profile simulation
+
+✔ Mendelian inheritance modelling
+
+✔ Parent-child relationship testing
+
+✔ Sibling relationship analysis
+
+✔ Missing person identification simulation
+
+✔ Kinship likelihood ratio calculation
+
+✔ Monte Carlo simulation framework
 
 ---
 
@@ -95,6 +113,13 @@ The experiment evaluates whether a biological relative can correctly identify an
 Results show substantially higher likelihood ratios for true relatives than for unrelated individuals.
 
 ---
+## Key Takeaway
+
+This project demonstrates how STR inheritance patterns and likelihood-based statistical approaches can distinguish biological relatives from unrelated individuals.
+
+The experiments reproduce core concepts used in forensic kinship testing, human identification, and missing persons investigations.
+
+---
 
 ## Research Questions
 
@@ -104,7 +129,31 @@ Results show substantially higher likelihood ratios for true relatives than for 
 4. How can kinship analysis support forensic identification and missing persons investigations?
 
 ---
+## Skills Demonstrated
 
+### Forensic Genetics
+
+- STR profile analysis
+- Kinship testing
+- Relationship inference
+- Missing person identification
+- Likelihood ratio interpretation
+
+### Computational Genetics
+
+- Mendelian inheritance modelling
+- Monte Carlo simulations
+- Statistical genetics
+- Probabilistic inference
+
+### Programming
+
+- Python
+- Data visualization
+- Statistical analysis
+- Reproducible workflows
+
+---
 ## Methods
 
 * STR profile generation
@@ -117,6 +166,22 @@ Results show substantially higher likelihood ratios for true relatives than for 
 * Data visualization using Python
 
 ---
+Reference STR Profiles
+        ↓
+Inheritance Simulation
+        ↓
+Relationship Generation
+        ↓
+Likelihood Ratio Calculation
+        ↓
+Monte Carlo Experiments
+        ↓
+Relationship Evaluation
+        ↓
+Forensic Interpretation
+
+---
+
 
 ## Project Structure
 
@@ -200,4 +265,18 @@ It is not validated for forensic casework and must not be used in real investiga
 
 ## Author
 
-Agata Gabara
+**Agata Gabara**
+
+Incoming MSc Bioinformatics Student
+
+Research Interests:
+
+- Computational Biology
+- Population Genetics
+- Statistical Genetics
+- Cancer Genomics
+- Machine Learning for Genomics
+
+GitHub: https://github.com/ag48665
+
+LinkedIn: https://www.linkedin.com/in/agatha-gabara-06494a37/
